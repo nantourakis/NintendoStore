@@ -1,0 +1,17 @@
+﻿@*
+    Add a carousel of images for the games on sale, partial view
+*@
+@model HomeViewModel
+
+<partial name="_Carousel" />
+
+<h2>Games on Sale</h2>
+
+<div class="row">
+    @foreach(var game in Model.GameOnSale)
+    {
+        <partial name="_gameCard" model="game" />
+    }
+
+</div>
+

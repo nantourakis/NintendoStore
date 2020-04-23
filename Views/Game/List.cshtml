@@ -1,0 +1,14 @@
+﻿@*
+    File is named after the action of the controller
+    //bring in the model we want to work with
+*@
+@model GameListViewModel
+
+    
+    
+        <h1>@Model.CurrentCategory</h1>
+        @foreach (var game in Model.Games)
+        {
+            <partial name="_gameCard" model="game" />
+        }
+    
