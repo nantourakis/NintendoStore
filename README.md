@@ -1,4 +1,4 @@
-# NintendoStore
+# Nintendo E-Commerce Store
 
 ASP .Net Core 3.0 project
 
